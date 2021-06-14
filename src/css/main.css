@@ -1,0 +1,112 @@
+@font-face {
+  font-family: 'Hack';
+  src: url('https://cdn.meowz.moe/fonts/hack/hack-regular.woff2') format('woff2'), url('https://cdn.meowz.moe/fonts/hack/hack-regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Hack';
+  src: url('https://cdn.meowz.moe/fonts/hack/hack-bold.woff2') format('woff2'), url('https://cdn.meowz.moe/fonts/hack/hack-bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Hack';
+  src: url('https://cdn.meowz.moe/fonts/hack/hack-italic.woff2') format('woff2'), url('https://cdn.meowz.moe/fonts/hack/hack-italic.woff') format('woff');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Hack';
+  src: url('https://cdn.meowz.moe/fonts/hack/hack-bolditalic.woff2') format('woff2'), url('https://cdn.meowz.moe/fonts/hack/hack-bolditalic.woff') format('woff');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+body {
+	background-color:#2b2b2b; 
+	color: #c7c7c7; 
+	text-align:center; 
+	font-family:Hack,sans-serif;
+}
+
+.img {
+border-style: solid; 
+border-color: #2159c4; 
+border-width: 1px; 
+height: auto;
+width: auto;
+max-width:90vw; 
+}
+
+@media only screen and (max-width: 4000px) {
+   main {
+      padding-left: 12%;
+      padding-right: 12%;
+   }
+    .navlink {
+	font-size:1.2em;
+}
+}
+
+@media only screen and (max-width: 800px) {
+   main {
+      padding-left: 0;
+      padding-right: 0;
+   }
+    .navlink {
+	font-size:1em;
+}
+}
+
+footer {
+	width: 100%;
+	padding-top: 5%;
+}
+
+a {
+	color: #c630d1;
+}
+
+a:hover {
+	color: #8c2294;
+}
+
+.logo {
+	text-decoration:none;
+}
+
+.primary {
+	color: #c630d1;
+}
+
+.primary-dark {
+	color: #8c2294;
+}
+
+.primary-light {
+	color: #f138ff;
+}
+
+.accent {
+	color: #2159c4;
+}
+
+.accent-dark {
+	color: #163e8a;
+}
+
+.accent-light {
+	color: #2a72fa;
+}
+
+.text-darker {
+	color: #999999;
+}
