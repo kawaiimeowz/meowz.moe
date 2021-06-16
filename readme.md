@@ -2,9 +2,11 @@
 
 Meowz.moe is my personal website.
 
-Its main goal is to be as lightweight and simple as possible to mantain compatibility with lower end devices and slow networks.
+Its primary goal is to be as lightweight and simple as possible to mantain compatibility with lower end devices and slow networks.
 
 Its secondary goal is to look nice and modern-ish.
+
+There are plans to make it easier to post stuff, probably with some server-side language. We'll see.
 
 # Nginx Config
 

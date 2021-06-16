@@ -1,3 +1,4 @@
+/* Hack Font */
 @font-face {
   font-family: 'Hack';
   src: url('https://cdn.meowz.moe/fonts/hack/hack-regular.woff2') format('woff2'), url('https://cdn.meowz.moe/fonts/hack/hack-regular.woff') format('woff');
@@ -30,6 +31,8 @@
   font-display: swap;
 }
 
+/* CSS Start */
+
 body {
 	background-color:#2b2b2b; 
 	color: #c7c7c7; 
@@ -37,6 +40,8 @@ body {
 	font-family:Hack,sans-serif;
 }
 
+
+/* Adds a simple border and restricts max width so that it all looks nice.*/
 .img {
 border-style: solid; 
 border-color: #2159c4; 
@@ -46,29 +51,11 @@ width: auto;
 max-width:90vw; 
 }
 
-@media only screen and (max-width: 4000px) {
-   main {
-      padding-left: 12%;
-      padding-right: 12%;
-   }
-    .navlink {
-	font-size:1.2em;
-}
-}
-
-@media only screen and (max-width: 800px) {
-   main {
-      padding-left: 0;
-      padding-right: 0;
-   }
-    .navlink {
-	font-size:1em;
-}
-}
 
 footer {
 	width: 100%;
 	padding-top: 2.5%;
+  font-size: 0.8em;
 }
 
 a {
@@ -81,6 +68,17 @@ a:hover {
 
 .logo {
 	text-decoration:none;
+}
+
+/* Colors */
+
+/* Same as our global text colour, for future use.*/
+.text {
+  color: #c7c7c7;
+}
+
+.text-darker {
+	color: #999999;
 }
 
 .primary {
@@ -107,6 +105,23 @@ a:hover {
 	color: #2a72fa;
 }
 
-.text-darker {
-	color: #999999;
+/*We make the nav items a little bigger after 800px, so that they'll look nice on mobile too.*/
+@media only screen and (max-width: 4000px) {
+  main {
+     padding-left: 12%;
+     padding-right: 12%;
+  }
+   .navlink {
+ font-size:1.2em;
+}
+}
+
+@media only screen and (max-width: 800px) {
+  main {
+     padding-left: 0;
+     padding-right: 0;
+  }
+   .navlink {
+ font-size:1em;
+}
 }
